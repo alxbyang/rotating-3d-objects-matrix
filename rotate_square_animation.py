@@ -22,7 +22,7 @@ ax.set_zlim([-2, 2])
 # Initialize the cube plot
 lines = [ax.plot([], [], [], 'b-')[0] for _ in range(len(connections))]
 
-# Define the angle increment for each frame
+# Define the angle increment for each frame so that we achieve rotation
 angle_increment = 0.05
 
 def update(frame):

@@ -48,5 +48,3 @@ ani = animation.FuncAnimation(fig, update, frames=range(0, 100), interval=50, bl
 
 # Display the animation
 plt.show()
-
-# hi
